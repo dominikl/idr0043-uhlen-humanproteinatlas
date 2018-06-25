@@ -345,7 +345,7 @@ columns:
           omitempty: no
         - name: Antibody identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://www.proteinatlas.org/search/{{ value|urlencode }}
+          clientvalue: http://v18.proteinatlas.org/search/{{ value|urlencode }}
           include: yes
         - name: Human Protein Atlas version
           clientname: Human Protein Atlas version
